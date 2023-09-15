@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#hero-section{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/udaipur.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.h1-part{
+    background-color: #1D3557;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+h1{
+    margin: 0px;
+}
+.h2-part{
+    margin-top: 10px;
+    background-color: #457B9D;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+h2{
+    margin: 0px;
+}
+
+#activities-section{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #F1FAEE;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img-size{
+    width: 300px;
+    border-radius: 50%;
+}
+.img-nayan{
+    width: 300px;
+    border-radius: 10px;
+}
+#guide-section{
+    background-color: #A8DADC;
+    height: 400px;
+    width: 800px;
+    display: flex;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.guide-part{
+    display: flex;
+    flex-direction: row;
+}
+.main-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
